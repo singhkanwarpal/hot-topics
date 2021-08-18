@@ -1,0 +1,65 @@
+header{
+    margin: 5vh 2rem;
+}
+
+main{
+    margin: 5vh 2rem;
+}
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a{
+    display: block;
+    padding: 8px;
+    margin-bottom:  2px;
+    border: solid 1px black;
+}
+
+main h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width: 20rem;
+    float: left;
+    padding-right: 10px;
+}
+
+.active{
+    background-color: aqua;
+    color: black;
+}
+
+@media only screen and (min-width: 30rem) {
+    header{
+        margin: 5vh 20vw;
+    }
+    
+    main{
+        margin: 5vh 20vw;
+    }
+    
+    header ul li a{
+        display: inline-block;
+        width: 24.5%;
+        border: solid 1px black;
+    }
+  }
